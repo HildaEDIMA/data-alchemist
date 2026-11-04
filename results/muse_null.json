@@ -1,0 +1,255 @@
+[
+ [
+  {
+   "claim": "Higher ad spend is associated with higher return rate",
+   "variables": [
+    "ad_spend",
+    "return_rate"
+   ],
+   "evidence": "Pearson r=0.049 p=0.00017 n=6000; lowest ad_spend quartile mean return_rate 0.113 vs mid-high quartiles 0.123 and 0.121; one-way ANOVA across 4 quartiles p=0.00066",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "More support contacts are associated with lower weekly sales",
+   "variables": [
+    "support_contacts",
+    "weekly_sales"
+   ],
+   "evidence": "Pearson r=-0.031 p=0.016 n=6000; 0-1 contacts mean weekly_sales 161.8 vs >=7 contacts mean 158.2, difference ~3.6, t-test p=0.019 Cohen d=0.097",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Weekend ratings are slightly lower than weekday ratings",
+   "variables": [
+    "weekend",
+    "rating"
+   ],
+   "evidence": "Weekday mean 3.742 (n=4280) vs weekend mean 3.688 (n=1720); Welch t p=0.026 Cohen d=0.064; Pearson r=-0.029",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Warmer temperature is associated with slightly higher conversion",
+   "variables": [
+    "temperature",
+    "converted"
+   ],
+   "evidence": "Pearson r=0.026 p=0.041 n=6000; coldest quartile converted 28.0% vs warmest quartile 32.2%; binned means rise from 0.275 to 0.314 in warmest bins; chi-square across quartiles p=0.081",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Budget segment converts at a higher rate than premium segment",
+   "variables": [
+    "segment",
+    "converted"
+   ],
+   "evidence": "Budget 30.85% converted (n=2998) vs premium 28.58% (n=3002); chi-square vs converted p=0.058",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Faster delivery is associated with slightly higher satisfaction",
+   "variables": [
+    "delivery_days",
+    "satisfaction"
+   ],
+   "evidence": "Fastest bin <=2.3 days mean satisfaction 79.33 vs slowest >=6.5 days mean 78.34 and 78.30-78.60 in middle bins; Welch t fast vs slow p=0.091 Cohen d=0.086; Pearson r=-0.018",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Spend has no meaningful linear predictor among measured variables",
+   "variables": [
+    "spend",
+    "revenue"
+   ],
+   "evidence": "All absolute correlations with spend <0.02, strongest is revenue r=-0.018; binned price vs spend flat 79.4-81.8 across 8 price octiles and discount vs spend flat 79.5-81.5 despite price range 3.6 to 336.3",
+   "false": true,
+   "supported_by_engine": false
+  }
+ ],
+ [
+  {
+   "claim": "Loyalty members convert at a slightly higher rate than non-members, the only binary predictor with a significant conversion lift",
+   "variables": [
+    "loyalty_member",
+    "converted"
+   ],
+   "evidence": "conversion 32.4% (loyalty=1, n=1768) vs 29.5% (loyalty=0, n=4232); chi2=4.97, p=0.026",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Weekend vs weekday shows no meaningful difference in conversion or repeat purchase",
+   "variables": [
+    "weekend",
+    "converted"
+   ],
+   "evidence": "converted 31.6% weekend vs 29.8% weekday; chi2=1.74, p=0.188; repeat_purchase also ns p=0.308",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Ad spend has no linear or binned relationship with weekly sales",
+   "variables": [
+    "ad_spend",
+    "weekly_sales"
+   ],
+   "evidence": "Pearson r=-0.004; binned means across 8 ad_spend quantiles range 156.5-164.5 with no trend (overall mean 159.6, n=6000)",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Discount level does not drive conversion or spend",
+   "variables": [
+    "discount_pct",
+    "converted"
+   ],
+   "evidence": "Pearson r~0.00 with converted and 0.007 with spend; binned conversion flat 0.28-0.32 across 0-30% discount; binned spend flat 80.7-83.0",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Price is decoupled from revenue and spend despite wide price range",
+   "variables": [
+    "price",
+    "revenue"
+   ],
+   "evidence": "Pearson price-revenue r=-0.018, price-spend r=-0.024; binned revenue 35.3-37.8 flat across price octiles; 19 extreme outliers price>200 (max 514.8 vs mean 43.2) without elevated revenue",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Satisfaction, rating, support contacts and delivery experience are mutually uncorrelated",
+   "variables": [
+    "support_contacts",
+    "satisfaction"
+   ],
+   "evidence": "support-satisfaction r=0.015; delivery-rating r=-0.008; rating-satisfaction r=-0.004; binned satisfaction ~77.9-78.9 across support_contacts 0-14, flat",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "All numeric pairwise correlations are essentially zero; strongest absolute r is only ~0.04",
+   "variables": [
+    "delivery_days",
+    "support_contacts"
+   ],
+   "evidence": "Full 25x25 matrix max |r|=0.042 (price-noise_num_04); only flagged pair delivery-support r=-0.039 p=0.003 Spearman -0.049 p=0.00015, negligible effect",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Region, channel and segment show no meaningful differences in spend, revenue, satisfaction or conversion",
+   "variables": [
+    "region",
+    "spend"
+   ],
+   "evidence": "e.g. spend by region East 82.5 North 81.3 South 81.5 West 81.6; by channel app 82.1 store 81.6 web 81.4; ANOVA all p>0.11 except delivery_days segment budget 4.22 vs premium 4.33 F=5.09 p=0.024 and region F=2.82 p=0.038, tiny effects",
+   "false": true,
+   "supported_by_engine": false
+  }
+ ],
+ [
+  {
+   "claim": "Conversion rate differs by channel: web converts highest and store lowest",
+   "variables": [
+    "channel",
+    "converted"
+   ],
+   "evidence": "n=6000; web 32.2% (786/2440, 95%CI 30.4-34.1%), app 30.5% (627/2056), store 27.5% (414/1504); chi-square=9.65 p=0.008; pairwise store vs web p=0.0021, app vs store p=0.059, app vs web p=0.229",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Repeat-purchase rate peaks at exactly 4 support contacts and is lower on either side",
+   "variables": [
+    "support_contacts",
+    "repeat_purchase"
+   ],
+   "evidence": "quintile means 39.7% (n=1286), 39.5% (n=1680), 46.7% at 4 contacts (n=687), 38.1% (n=1545), 40.1% (n=802); ANOVA F=3.86 p=0.0039; exact: 4 contacts 46.7% vs 5 contacts 37.2% (n=591) and 6 contacts 37.2% (n=529); full chi-square p=0.045",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Price and revenue are both heavily right-skewed but their extremes are independent and uncorrelated",
+   "variables": [
+    "price",
+    "revenue"
+   ],
+   "evidence": "price skew 2.27 max 359.3 vs p95 95.9 (46 rows >150); revenue skew 2.38 max 332.4 vs p95 83.3 (21 rows >150); only 5 rows have both >100; top-10 price rows have revenues 7-59; top-10 revenue rows have prices 18-59; Pearson r=0.008 p=0.55 n=6000, r=0.013 after excluding price>150",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Ad spend has no linear association with weekly sales",
+   "variables": [
+    "ad_spend",
+    "weekly_sales"
+   ],
+   "evidence": "Pearson r=0.008 p=0.52, Spearman r=0.007, n=6000 (SE~0.013, powered to detect |r|>0.04); decile and quintile means flat around 160.7",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Discount percentage does not drive conversion or spend",
+   "variables": [
+    "discount_pct",
+    "converted",
+    "spend"
+   ],
+   "evidence": "discount vs converted r=-0.018 p=0.16; decile conversion 28.0-34.8% with no trend; discount vs spend r=-0.025 p=0.057; decile spend means 78.3-82.9 flat, n=6000",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Rating is unrelated to satisfaction and support contacts are unrelated to satisfaction",
+   "variables": [
+    "rating",
+    "satisfaction",
+    "support_contacts"
+   ],
+   "evidence": "rating vs satisfaction Pearson r=0.004 p=0.77 Spearman 0.005 n=6000; rating-decile satisfaction means 77.5-79.2 flat; support_contacts vs satisfaction r=-0.012 p=0.37",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Loyalty, weekend, region and segment show essentially no differences in spend, revenue or conversion",
+   "variables": [
+    "loyalty_member",
+    "weekend",
+    "region",
+    "segment",
+    "spend",
+    "revenue"
+   ],
+   "evidence": "spend by loyalty 81.28 vs 81.05; spend by weekend 81.34 vs 80.91; revenue by segment budget 36.45 vs premium 37.04; weekly_sales by region 160.5-160.9; loyalty vs repeat r=0.014 p=0.28; all Pearson |r|<0.03, t-test/chi-square p>0.24 except channel",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Spend contains 4 impossible negative values indicating data errors",
+   "variables": [
+    "spend"
+   ],
+   "evidence": "4/6000 (0.07%) spend<0: -0.75, -12.53, -8.28, -20.63; overall spend mean 81.21 std 25.36 skew 0.00, min -20.63 vs p5 38.8",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "All designated noise columns behave as pure noise with no signal",
+   "variables": [
+    "noise_cat_00",
+    "noise_cat_03",
+    "noise_num_01",
+    "noise_num_04"
+   ],
+   "evidence": "noise_num vs converted |r|<=0.029 and vs spend |r|<=0.022 (n=6000); noise_cat x converted chi-square p=0.391, 0.142, 0.213, 0.837; noise_num means ~0 std ~1.0, noise_cat counts ~1450-1550 per level",
+   "false": true,
+   "supported_by_engine": false
+  }
+ ]
+]

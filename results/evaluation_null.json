@@ -1,0 +1,31 @@
+{
+ "mode": "null",
+ "seeds": 5,
+ "n": 6000,
+ "summary": {
+  "naive (p < 0.05, no correction)": {
+   "mean": 373.0,
+   "min": 331,
+   "max": 414,
+   "datasets_with_any": 5
+  },
+  "+ FDR control (BH)": {
+   "mean": 0.4,
+   "min": 0,
+   "max": 2,
+   "datasets_with_any": 1
+  },
+  "+ replication on unseen data": {
+   "mean": 0.0,
+   "min": 0,
+   "max": 0,
+   "datasets_with_any": 0
+  },
+  "+ confounder screening (full)": {
+   "mean": 0.0,
+   "min": 0,
+   "max": 0,
+   "datasets_with_any": 0
+  }
+ }
+}

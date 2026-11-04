@@ -1,0 +1,35 @@
+{
+ "mode": "planted",
+ "seeds": 5,
+ "n": 6000,
+ "summary": {
+  "naive (p < 0.05, no correction)": {
+   "reported": 2119,
+   "false": 1991,
+   "fdr_pooled": 0.9395941481831053,
+   "recall_mean": 1.0,
+   "recall_min": 1.0
+  },
+  "+ FDR control (BH)": {
+   "reported": 127,
+   "false": 16,
+   "fdr_pooled": 0.12598425196850394,
+   "recall_mean": 1.0,
+   "recall_min": 1.0
+  },
+  "+ replication on unseen data": {
+   "reported": 116,
+   "false": 6,
+   "fdr_pooled": 0.05172413793103448,
+   "recall_mean": 1.0,
+   "recall_min": 1.0
+  },
+  "+ confounder screening (full)": {
+   "reported": 111,
+   "false": 1,
+   "fdr_pooled": 0.009009009009009009,
+   "recall_mean": 1.0,
+   "recall_min": 1.0
+  }
+ }
+}
