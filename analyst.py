@@ -14,6 +14,9 @@ import subprocess
 import sys
 import tempfile
 
+from dotenv import load_dotenv
+load_dotenv()
+
 MODEL = "muse-spark-1.3"
 BASE_URL = "https://api.meta.ai/v1"
 MAX_TURNS = 8

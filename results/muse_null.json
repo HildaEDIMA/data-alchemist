@@ -1,187 +1,460 @@
 [
  [
   {
-   "claim": "Higher ad spend is associated with higher return rate",
+   "claim": "Higher ad_spend is weakly associated with higher return_rate",
    "variables": [
     "ad_spend",
     "return_rate"
    ],
-   "evidence": "Pearson r=0.049 p=0.00017 n=6000; lowest ad_spend quartile mean return_rate 0.113 vs mid-high quartiles 0.123 and 0.121; one-way ANOVA across 4 quartiles p=0.00066",
+   "asserts_effect": true,
+   "evidence": "Pearson r=0.0485, Spearman r=0.0454, n=6000; strongest correlation in full numeric matrix, R-squared ~0.2% so effect is tiny but positive",
    "false": true,
    "supported_by_engine": false
   },
   {
-   "claim": "More support contacts are associated with lower weekly sales",
+   "claim": "More support contacts are weakly associated with lower weekly_sales",
    "variables": [
     "support_contacts",
     "weekly_sales"
    ],
-   "evidence": "Pearson r=-0.031 p=0.016 n=6000; 0-1 contacts mean weekly_sales 161.8 vs >=7 contacts mean 158.2, difference ~3.6, t-test p=0.019 Cohen d=0.097",
+   "asserts_effect": true,
+   "evidence": "Pearson r=-0.0312, Spearman r=-0.0321, n=6000; second strongest absolute correlation, very small negative association",
    "false": true,
    "supported_by_engine": false
   },
   {
-   "claim": "Weekend ratings are slightly lower than weekday ratings",
+   "claim": "Weekend transactions have slightly lower ratings than weekday transactions",
    "variables": [
     "weekend",
     "rating"
    ],
-   "evidence": "Weekday mean 3.742 (n=4280) vs weekend mean 3.688 (n=1720); Welch t p=0.026 Cohen d=0.064; Pearson r=-0.029",
+   "asserts_effect": true,
+   "evidence": "Mean rating weekday=3.742 vs weekend=3.688, diff=-0.054, ANOVA F=5.07 p=0.024, eta2=0.0008, n=4280 vs 1720; Pearson r=-0.029",
    "false": true,
    "supported_by_engine": false
   },
   {
-   "claim": "Warmer temperature is associated with slightly higher conversion",
+   "claim": "Converted transactions occurred at slightly higher temperatures",
    "variables": [
-    "temperature",
-    "converted"
+    "converted",
+    "temperature"
    ],
-   "evidence": "Pearson r=0.026 p=0.041 n=6000; coldest quartile converted 28.0% vs warmest quartile 32.2%; binned means rise from 0.275 to 0.314 in warmest bins; chi-square across quartiles p=0.081",
+   "asserts_effect": true,
+   "evidence": "Mean temperature non-converted=14.94 vs converted=15.45, diff=0.51, d=0.058, t-test p=0.042, point-biserial r=0.026, n=4217 vs 1783",
    "false": true,
    "supported_by_engine": false
   },
   {
-   "claim": "Budget segment converts at a higher rate than premium segment",
+   "claim": "Budget segment has slightly higher price than premium segment",
    "variables": [
     "segment",
-    "converted"
+    "price"
    ],
-   "evidence": "Budget 30.85% converted (n=2998) vs premium 28.58% (n=3002); chi-square vs converted p=0.058",
+   "asserts_effect": true,
+   "evidence": "Mean price budget=44.77 vs premium=43.16, ANOVA F=4.60 p=0.032, eta2=0.0008, n~3000 each; tiny difference opposite to label expectation",
    "false": true,
    "supported_by_engine": false
   },
   {
-   "claim": "Faster delivery is associated with slightly higher satisfaction",
-   "variables": [
-    "delivery_days",
-    "satisfaction"
-   ],
-   "evidence": "Fastest bin <=2.3 days mean satisfaction 79.33 vs slowest >=6.5 days mean 78.34 and 78.30-78.60 in middle bins; Welch t fast vs slow p=0.091 Cohen d=0.086; Pearson r=-0.018",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "Spend has no meaningful linear predictor among measured variables",
+   "claim": "Spend is essentially uncorrelated with revenue",
    "variables": [
     "spend",
     "revenue"
    ],
-   "evidence": "All absolute correlations with spend <0.02, strongest is revenue r=-0.018; binned price vs spend flat 79.4-81.8 across 8 price octiles and discount vs spend flat 79.5-81.5 despite price range 3.6 to 336.3",
-   "false": true,
-   "supported_by_engine": false
-  }
- ],
- [
-  {
-   "claim": "Loyalty members convert at a slightly higher rate than non-members, the only binary predictor with a significant conversion lift",
-   "variables": [
-    "loyalty_member",
-    "converted"
-   ],
-   "evidence": "conversion 32.4% (loyalty=1, n=1768) vs 29.5% (loyalty=0, n=4232); chi2=4.97, p=0.026",
-   "false": true,
+   "asserts_effect": false,
+   "evidence": "Pearson r=-0.018, Spearman r=-0.026, n=6000; means across converted groups differ by only 0.40 on SD 25.5, p=0.58",
+   "false": false,
    "supported_by_engine": false
   },
   {
-   "claim": "Weekend vs weekday shows no meaningful difference in conversion or repeat purchase",
-   "variables": [
-    "weekend",
-    "converted"
-   ],
-   "evidence": "converted 31.6% weekend vs 29.8% weekday; chi2=1.74, p=0.188; repeat_purchase also ns p=0.308",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "Ad spend has no linear or binned relationship with weekly sales",
-   "variables": [
-    "ad_spend",
-    "weekly_sales"
-   ],
-   "evidence": "Pearson r=-0.004; binned means across 8 ad_spend quantiles range 156.5-164.5 with no trend (overall mean 159.6, n=6000)",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "Discount level does not drive conversion or spend",
-   "variables": [
-    "discount_pct",
-    "converted"
-   ],
-   "evidence": "Pearson r~0.00 with converted and 0.007 with spend; binned conversion flat 0.28-0.32 across 0-30% discount; binned spend flat 80.7-83.0",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "Price is decoupled from revenue and spend despite wide price range",
-   "variables": [
-    "price",
-    "revenue"
-   ],
-   "evidence": "Pearson price-revenue r=-0.018, price-spend r=-0.024; binned revenue 35.3-37.8 flat across price octiles; 19 extreme outliers price>200 (max 514.8 vs mean 43.2) without elevated revenue",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "Satisfaction, rating, support contacts and delivery experience are mutually uncorrelated",
-   "variables": [
-    "support_contacts",
-    "satisfaction"
-   ],
-   "evidence": "support-satisfaction r=0.015; delivery-rating r=-0.008; rating-satisfaction r=-0.004; binned satisfaction ~77.9-78.9 across support_contacts 0-14, flat",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "All numeric pairwise correlations are essentially zero; strongest absolute r is only ~0.04",
-   "variables": [
-    "delivery_days",
-    "support_contacts"
-   ],
-   "evidence": "Full 25x25 matrix max |r|=0.042 (price-noise_num_04); only flagged pair delivery-support r=-0.039 p=0.003 Spearman -0.049 p=0.00015, negligible effect",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "Region, channel and segment show no meaningful differences in spend, revenue, satisfaction or conversion",
+   "claim": "Region does not affect conversion rate",
    "variables": [
     "region",
-    "spend"
+    "converted"
    ],
-   "evidence": "e.g. spend by region East 82.5 North 81.3 South 81.5 West 81.6; by channel app 82.1 store 81.6 web 81.4; ANOVA all p>0.11 except delivery_days segment budget 4.22 vs premium 4.33 F=5.09 p=0.024 and region F=2.82 p=0.038, tiny effects",
-   "false": true,
+   "asserts_effect": false,
+   "evidence": "Conversion rates East 0.291, North 0.295, South 0.299, West 0.306, chi2=0.765 p=0.858, n=6000",
+   "false": false,
    "supported_by_engine": false
-  }
- ],
- [
+  },
   {
-   "claim": "Conversion rate differs by channel: web converts highest and store lowest",
+   "claim": "Channel does not affect conversion or repeat purchase",
    "variables": [
     "channel",
     "converted"
    ],
-   "evidence": "n=6000; web 32.2% (786/2440, 95%CI 30.4-34.1%), app 30.5% (627/2056), store 27.5% (414/1504); chi-square=9.65 p=0.008; pairwise store vs web p=0.0021, app vs store p=0.059, app vs web p=0.229",
-   "false": true,
+   "asserts_effect": false,
+   "evidence": "Converted rates app 0.289, store 0.294, web 0.306, chi2=1.662 p=0.436; repeat rates all 0.41-0.42, chi2=0.078 p=0.96, n=6000",
+   "false": false,
    "supported_by_engine": false
   },
   {
-   "claim": "Repeat-purchase rate peaks at exactly 4 support contacts and is lower on either side",
+   "claim": "Loyalty membership does not affect conversion or repeat purchase",
    "variables": [
-    "support_contacts",
+    "loyalty_member",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "Converted rate 0.296 vs 0.300, chi2=0.088 p=0.767; repeat rate 0.415 vs 0.415, chi2=0.0 p=1.0, n=4194 vs 1806",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Noise control variables show no association with outcomes, as expected",
+   "variables": [
+    "noise_cat_00",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "noise_cat_00 vs converted chi2=0.359 p=0.949, rates 0.292-0.300; noise_cat_03/06/09 all p>0.57; noise_num correlations all |r|<0.03",
+   "false": false,
+   "supported_by_engine": false
+  }
+ ],
+ [
+  {
+   "claim": "Average spend does not differ between budget and premium segments",
+   "variables": [
+    "segment",
+    "spend"
+   ],
+   "asserts_effect": false,
+   "evidence": "means budget 81.85 vs premium 81.59, t-test p=0.692, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Conversion rate does not differ by region",
+   "variables": [
+    "region",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "rates East 0.308, North 0.305, South 0.304, West 0.295, chi2 p=0.902, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Conversion rate does not differ by sales channel",
+   "variables": [
+    "channel",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "rates app 0.308, store 0.305, web 0.298, chi2 p=0.763, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Conversion rate does not differ by customer segment",
+   "variables": [
+    "segment",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "rates budget 0.301 vs premium 0.306, chi2 p=0.682, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Price is essentially uncorrelated with spend",
+   "variables": [
+    "price",
+    "spend"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=-0.024, |r|<0.08 threshold, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Discount percent does not differ between converted and non-converted transactions",
+   "variables": [
+    "discount_pct",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "mean non-converted 15.093 vs converted 15.087 diff -0.006, t-test p=0.981, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Satisfaction does not differ between converted and non-converted transactions",
+   "variables": [
+    "satisfaction",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "mean non-converted 78.524 vs converted 78.572 diff +0.048, t-test p=0.883, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "No strong pairwise linear correlations exist among numeric variables; the strongest absolute correlation is negligible",
+   "variables": [
+    "price",
+    "noise_num_04"
+   ],
+   "asserts_effect": false,
+   "evidence": "strongest pair r=-0.042, all 231 pairs |r|<0.08, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Repeat purchase rate does not differ by customer segment",
+   "variables": [
+    "segment",
     "repeat_purchase"
    ],
-   "evidence": "quintile means 39.7% (n=1286), 39.5% (n=1680), 46.7% at 4 contacts (n=687), 38.1% (n=1545), 40.1% (n=802); ANOVA F=3.86 p=0.0039; exact: 4 contacts 46.7% vs 5 contacts 37.2% (n=591) and 6 contacts 37.2% (n=529); full chi-square p=0.045",
+   "asserts_effect": false,
+   "evidence": "rates budget 0.418 vs premium 0.404, chi2 p=0.303, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  }
+ ],
+ [
+  {
+   "claim": "Conversion rate differs by sales channel, with web highest and store lowest",
+   "variables": [
+    "channel",
+    "converted"
+   ],
+   "asserts_effect": true,
+   "evidence": "chi2 p=0.008, n=6000; converted rate web=0.322 (n=2440), app=0.305 (n=2056), store=0.275 (n=1504)",
    "false": true,
    "supported_by_engine": false
   },
   {
-   "claim": "Price and revenue are both heavily right-skewed but their extremes are independent and uncorrelated",
+   "claim": "Repeat purchasers have slightly lower satisfaction than non-repeat purchasers",
+   "variables": [
+    "satisfaction",
+    "repeat_purchase"
+   ],
+   "asserts_effect": true,
+   "evidence": "means 77.87 vs 78.54, Cohen d=-0.058, Welch t-test p=0.028, n0=3594 n1=2406",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Higher discount_pct is associated with slightly lower return_rate",
+   "variables": [
+    "discount_pct",
+    "return_rate"
+   ],
+   "asserts_effect": true,
+   "evidence": "pearson r=-0.030 p=0.019, spearman r=-0.029 p=0.023, n=6000",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Longer delivery_days is associated with slightly lower revenue",
+   "variables": [
+    "delivery_days",
+    "revenue"
+   ],
+   "asserts_effect": true,
+   "evidence": "pearson r=-0.029 p=0.025, spearman r=-0.027 p=0.037, n=6000",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Ad spend has no relationship with weekly sales",
+   "variables": [
+    "ad_spend",
+    "weekly_sales"
+   ],
+   "asserts_effect": false,
+   "evidence": "pearson r=0.008 p=0.523, spearman r=0.007 p=0.564, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Temperature has no relationship with weekly sales",
+   "variables": [
+    "temperature",
+    "weekly_sales"
+   ],
+   "asserts_effect": false,
+   "evidence": "pearson r=0.010 p=0.437, spearman r=0.009 p=0.47, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Price has no relationship with spend",
+   "variables": [
+    "price",
+    "spend"
+   ],
+   "asserts_effect": false,
+   "evidence": "pearson r=-0.003 p=0.798, spearman r=0.003 p=0.794, price decile means spend 79.9-83.0 flat, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Price has no relationship with revenue",
    "variables": [
     "price",
     "revenue"
    ],
-   "evidence": "price skew 2.27 max 359.3 vs p95 95.9 (46 rows >150); revenue skew 2.38 max 332.4 vs p95 83.3 (21 rows >150); only 5 rows have both >100; top-10 price rows have revenues 7-59; top-10 revenue rows have prices 18-59; Pearson r=0.008 p=0.55 n=6000, r=0.013 after excluding price>150",
+   "asserts_effect": false,
+   "evidence": "pearson r=0.008 p=0.546, spearman r=0.009 p=0.486, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Rating has no relationship with satisfaction",
+   "variables": [
+    "rating",
+    "satisfaction"
+   ],
+   "asserts_effect": false,
+   "evidence": "pearson r=0.004 p=0.766, spearman r=0.005 p=0.677, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Number of support contacts has no relationship with satisfaction",
+   "variables": [
+    "support_contacts",
+    "satisfaction"
+   ],
+   "asserts_effect": false,
+   "evidence": "pearson r=-0.012 p=0.373, spearman r=-0.012 p=0.345, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Delivery time has no relationship with satisfaction",
+   "variables": [
+    "delivery_days",
+    "satisfaction"
+   ],
+   "asserts_effect": false,
+   "evidence": "pearson r=-0.004 p=0.736, spearman r=-0.009 p=0.479, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Loyalty membership does not affect spend or conversion",
+   "variables": [
+    "loyalty_member",
+    "spend"
+   ],
+   "asserts_effect": false,
+   "evidence": "spend means 81.28 vs 81.05 t-test p=0.748; converted rates 0.307 vs 0.298 chi2 p=0.49, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Region does not affect conversion or repeat purchase",
+   "variables": [
+    "region",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "converted by region 0.289-0.321 chi2 p=0.25; repeat by region 0.388-0.415 chi2 p=0.45, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Converted and repeat-purchase status do not differ in spend or revenue",
+   "variables": [
+    "converted",
+    "spend"
+   ],
+   "asserts_effect": false,
+   "evidence": "spend by converted 81.33 vs 80.95 p=0.596; revenue 36.93 vs 36.32 p=0.367; spend by repeat 81.38 vs 80.97 p=0.546, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  }
+ ],
+ [
+  {
+   "claim": "Customers who converted have lower revenue on average than non-converted customers",
+   "variables": [
+    "converted",
+    "revenue"
+   ],
+   "asserts_effect": true,
+   "evidence": "mean revenue 35.36 (n=1829) for converted=1 vs 37.68 (n=4171) for converted=0, Welch t=3.48 p=0.0005, Pearson r=-0.043 p=0.00076 n=6000",
    "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Repeat purchasers bought at lower price on average than non-repeat purchasers",
+   "variables": [
+    "price",
+    "repeat_purchase"
+   ],
+   "asserts_effect": true,
+   "evidence": "mean price 42.17 (n=2449) for repeat=1 vs 44.61 (n=3551) for repeat=0, Welch t=3.29 p=0.0010, r=-0.042 p=0.0012 n=6000",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Loyalty members receive slightly lower discount_pct than non-members",
+   "variables": [
+    "loyalty_member",
+    "discount_pct"
+   ],
+   "asserts_effect": true,
+   "evidence": "mean discount 14.58% (n=1738) for members vs 15.25% (n=4262) for non-members, Welch t p=0.0074, r=-0.035 p=0.007 n=6000, Cohen d=-0.08",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Older customers give slightly higher ratings",
+   "variables": [
+    "age",
+    "rating"
+   ],
+   "asserts_effect": true,
+   "evidence": "Pearson r=0.033 p=0.011 n=6000; quintile means: age <=37 rating 3.67 (n=1314) rising to age 45-52 rating 3.76 (n=1209) and 52-60 rating 3.76 (n=1178), ANOVA p=0.017",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Web channel customers have more support contacts than app/store customers",
+   "variables": [
+    "channel",
+    "support_contacts"
+   ],
+   "asserts_effect": true,
+   "evidence": "means web 4.17 (n=2416) vs app 3.94 (n=2124) vs store 3.90 (n=1460), one-way ANOVA p=0.0043, web vs others Welch t p=0.0011",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "App channel has lower repeat purchase rate than web/store",
+   "variables": [
+    "channel",
+    "repeat_purchase"
+   ],
+   "asserts_effect": true,
+   "evidence": "repeat rates app 38.7% (822/2124) vs web 42.0% (1014/2416) vs store 42.0% (613/1460), chi2 app vs non-app p=0.015, overall channel x repeat chi2 p=0.047",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Loyalty members have slightly higher satisfaction than non-members",
+   "variables": [
+    "loyalty_member",
+    "satisfaction"
+   ],
+   "asserts_effect": true,
+   "evidence": "mean 78.91 (n=1738) vs 78.24 (n=4262), Welch t=2.08 p=0.038, r=0.027 p=0.040 n=6000",
+   "false": true,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Discount has no association with conversion",
+   "variables": [
+    "discount_pct",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=-0.0014 p=0.91 n=6000; conversion by discount quintile 30.3%, 30.7%, 30.1%, 31.2%, 30.2%, ANOVA p=0.975",
+   "false": false,
    "supported_by_engine": false
   },
   {
@@ -190,65 +463,165 @@
     "ad_spend",
     "weekly_sales"
    ],
-   "evidence": "Pearson r=0.008 p=0.52, Spearman r=0.007, n=6000 (SE~0.013, powered to detect |r|>0.04); decile and quintile means flat around 160.7",
-   "false": true,
+   "asserts_effect": false,
+   "evidence": "Pearson r=-0.009 p=0.50 n=6000; means by ad_spend quintile 160.7, 160.2, 160.1, 159.0, 159.6, ANOVA p=0.86",
+   "false": false,
    "supported_by_engine": false
   },
   {
-   "claim": "Discount percentage does not drive conversion or spend",
+   "claim": "Price has no association with spend",
    "variables": [
-    "discount_pct",
-    "converted",
+    "price",
     "spend"
    ],
-   "evidence": "discount vs converted r=-0.018 p=0.16; decile conversion 28.0-34.8% with no trend; discount vs spend r=-0.025 p=0.057; decile spend means 78.3-82.9 flat, n=6000",
-   "false": true,
+   "asserts_effect": false,
+   "evidence": "Pearson r=-0.0063 p=0.63 n=6000; means by price quintile 80.3, 81.6, 81.7, 80.6, 80.8, ANOVA p=0.61",
+   "false": false,
    "supported_by_engine": false
   },
   {
-   "claim": "Rating is unrelated to satisfaction and support contacts are unrelated to satisfaction",
+   "claim": "Rating has no association with satisfaction",
    "variables": [
     "rating",
-    "satisfaction",
-    "support_contacts"
+    "satisfaction"
    ],
-   "evidence": "rating vs satisfaction Pearson r=0.004 p=0.77 Spearman 0.005 n=6000; rating-decile satisfaction means 77.5-79.2 flat; support_contacts vs satisfaction r=-0.012 p=0.37",
-   "false": true,
+   "asserts_effect": false,
+   "evidence": "Pearson r=0.011 p=0.40 n=6000",
+   "false": false,
    "supported_by_engine": false
   },
   {
-   "claim": "Loyalty, weekend, region and segment show essentially no differences in spend, revenue or conversion",
+   "claim": "Customer segment (premium vs budget) shows no difference in spend, conversion, repeat, rating, satisfaction, revenue or weekly sales",
    "variables": [
-    "loyalty_member",
-    "weekend",
-    "region",
     "segment",
-    "spend",
-    "revenue"
-   ],
-   "evidence": "spend by loyalty 81.28 vs 81.05; spend by weekend 81.34 vs 80.91; revenue by segment budget 36.45 vs premium 37.04; weekly_sales by region 160.5-160.9; loyalty vs repeat r=0.014 p=0.28; all Pearson |r|<0.03, t-test/chi-square p>0.24 except channel",
-   "false": true,
-   "supported_by_engine": false
-  },
-  {
-   "claim": "Spend contains 4 impossible negative values indicating data errors",
-   "variables": [
     "spend"
    ],
-   "evidence": "4/6000 (0.07%) spend<0: -0.75, -12.53, -8.28, -20.63; overall spend mean 81.21 std 25.36 skew 0.00, min -20.63 vs p5 38.8",
+   "asserts_effect": false,
+   "evidence": "premium (n=3011) vs budget (n=2989): spend 81.17 vs 80.85 p=0.63, converted 31.2% vs 29.7% p=0.21, repeat 41.3% vs 40.3% p=0.43, rating 3.725 vs 3.739 p=0.52, satisfaction 78.28 vs 78.59 p=0.30, revenue 36.44 vs 37.50 p=0.094, weekly_sales 160.2 vs 159.6 p=0.50",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "Weekend has no association with spend or conversion",
+   "variables": [
+    "weekend",
+    "spend"
+   ],
+   "asserts_effect": false,
+   "evidence": "spend Welch t p=0.55; converted 31.1% weekend (n=1778) vs 30.2% weekday (n=4222), chi2 p=0.52",
+   "false": false,
+   "supported_by_engine": false
+  }
+ ],
+ [
+  {
+   "claim": "ad_spend has no linear relationship with weekly_sales",
+   "variables": [
+    "ad_spend",
+    "weekly_sales"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=0.0097, p=0.452, n=6000; quintile means of weekly_sales flat 159.5-161.0 across ad_spend range 33-163",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "price has no linear relationship with revenue",
+   "variables": [
+    "price",
+    "revenue"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=0.018, p=0.164, n=6000; also r=0.024 when converted=1 and r=0.016 when converted=0",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "rating has no relationship with satisfaction",
+   "variables": [
+    "rating",
+    "satisfaction"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=0.0017, p=0.897, n=6000; Spearman similarly ~0",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "temperature has no relationship with weekly_sales",
+   "variables": [
+    "temperature",
+    "weekly_sales"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=0.0034, p=0.792, n=6000; quintile means 159.7-160.6 flat",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "region does not affect conversion rate",
+   "variables": [
+    "region",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "chi2=0.12, p=0.989; rates East 30.9%, North 30.6%, South 30.5%, West 30.3% with n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "channel does not affect conversion rate",
+   "variables": [
+    "channel",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "chi2=3.17, p=0.205; rates app 29.9% (629/2104), store 32.4% (493/1521), web 30.1% (714/2375)",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "discount_pct has no relationship with conversion",
+   "variables": [
+    "discount_pct",
+    "converted"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=-0.0032, p=0.807; quintile converted rates 30.2%,31.6%,31.4%,28.7%,31.1% flat across 0-30% range; discount distribution uniform ~1000 per 5pp bin",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "support_contacts has no meaningful relationship with satisfaction",
+   "variables": [
+    "support_contacts",
+    "satisfaction"
+   ],
+   "asserts_effect": false,
+   "evidence": "Pearson r=-0.0186, p=0.15, n=6000",
+   "false": false,
+   "supported_by_engine": false
+  },
+  {
+   "claim": "price and revenue are heavily right-skewed with extreme outliers decoupled from each other",
+   "variables": [
+    "price",
+    "revenue"
+   ],
+   "asserts_effect": true,
+   "evidence": "skew price=2.17, revenue=2.28; 58 prices >150 up to 294.2 and 35 revenues >150 up to 264.78; e.g. price 200.99 with revenue 48.29",
    "false": true,
    "supported_by_engine": false
   },
   {
-   "claim": "All designated noise columns behave as pure noise with no signal",
+   "claim": "noise_num columns are standard-normal noise and noise_cat columns are uniform noise with no outcome signal",
    "variables": [
-    "noise_cat_00",
-    "noise_cat_03",
     "noise_num_01",
-    "noise_num_04"
+    "noise_cat_00"
    ],
-   "evidence": "noise_num vs converted |r|<=0.029 and vs spend |r|<=0.022 (n=6000); noise_cat x converted chi-square p=0.391, 0.142, 0.213, 0.837; noise_num means ~0 std ~1.0, noise_cat counts ~1450-1550 per level",
-   "false": true,
+   "asserts_effect": false,
+   "evidence": "all 8 noise_num mean ~0.0, std ~1.0, skew ~0; all pairwise |r|<0.04; noise cats ~1450-1550 per level A/B/C/D",
+   "false": false,
    "supported_by_engine": false
   }
  ]

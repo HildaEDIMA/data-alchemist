@@ -1,0 +1,3677 @@
+{
+  "seed_range": [
+    0,
+    99
+  ],
+  "seed_list": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+  ],
+  "datasets": 100,
+  "n": 6000,
+  "truth_ids": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06"
+  ],
+  "hypotheses_per_method": 9,
+  "methods": {
+    "raw": {
+      "datasets_scored": 100,
+      "recall_mean": 1.0,
+      "fdp": 0.15254237288135594,
+      "discoveries": 708,
+      "false_discoveries": 108,
+      "per_dataset": [
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        }
+      ]
+    },
+    "bonferroni": {
+      "datasets_scored": 100,
+      "recall_mean": 1.0,
+      "fdp": 0.1452991452991453,
+      "discoveries": 702,
+      "false_discoveries": 102,
+      "per_dataset": [
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        }
+      ]
+    },
+    "bh": {
+      "datasets_scored": 100,
+      "recall_mean": 1.0,
+      "fdp": 0.1501416430594901,
+      "discoveries": 706,
+      "false_discoveries": 106,
+      "per_dataset": [
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        }
+      ]
+    },
+    "split_confirmation_bh": {
+      "datasets_scored": 100,
+      "recall_mean": 1.0,
+      "fdp": 0.14407988587731813,
+      "discoveries": 701,
+      "false_discoveries": 101,
+      "per_dataset": [
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 2,
+          "discoveries": 8,
+          "recall": 1.0,
+          "fdp": 0.25
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        }
+      ]
+    },
+    "e_bh": {
+      "datasets_scored": 100,
+      "recall_mean": 1.0,
+      "fdp": 0.14285714285714285,
+      "discoveries": 700,
+      "false_discoveries": 100,
+      "per_dataset": [
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        },
+        {
+          "true_positives": 6,
+          "false_discoveries": 1,
+          "discoveries": 7,
+          "recall": 1.0,
+          "fdp": 0.14285714285714285
+        }
+      ]
+    }
+  },
+  "guarantees": {
+    "raw": "No multiplicity error control.",
+    "bonferroni": "FWER <= 0.05 under valid marginal p-values.",
+    "bh": "FDR <= 0.05 under independence or PRDS and valid p-values.",
+    "split_confirmation_bh": "BH FDR <= 0.05 under independence or PRDS and valid holdout p-values; promotions are frozen before holdout opening.",
+    "e_bh": "FDR <= 0.05 under arbitrary dependence for valid e-values and a fixed family; e = 0.5 * p**(-0.5), with E[e] <= 1 under a uniform null p-value."
+  },
+  "failures": [],
+  "protocol_version": "1.0",
+  "experiment": "E6",
+  "result_paragraph": "On 100 shared planted datasets and the same pre-specified test suite, raw: recall 1.000, pooled FDP 0.153, 708 discoveries; bonferroni: recall 1.000, pooled FDP 0.145, 702 discoveries; bh: recall 1.000, pooled FDP 0.150, 706 discoveries; split_confirmation_bh: recall 1.000, pooled FDP 0.144, 701 discoveries; e_bh: recall 1.000, pooled FDP 0.143, 700 discoveries."
+}

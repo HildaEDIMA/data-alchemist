@@ -125,4 +125,11 @@ datasets or general LLM behavior.
 
 ## Amendments
 
-None.
+### 2026-11-05 — E0 calibration gate
+
+Before any E0-E6 benchmark run, specify Holm correction across the eight
+supported-test KS calibration diagnostics as the E0 stop/continue gate. This
+controls the family-wise error rate of the calibration screen at 0.05 under
+valid marginal KS p-values. E0 still reports each unadjusted KS statistic and
+p-value. A non-rejection after Holm remains a diagnostic only, not evidence
+that a test is calibrated. The registered downstream stop rule is unchanged.

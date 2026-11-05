@@ -222,3 +222,6 @@ __marimo__/
 
 # data files
 data/
+
+# .env files
+.env
